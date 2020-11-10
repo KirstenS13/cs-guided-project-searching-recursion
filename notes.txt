@@ -1,0 +1,26 @@
+10/21/20
+
+Searching and Recursion
+
+Recursion
+    -- when a function calls itself
+    -- 
+
+    -- recursive data structure = data structure that is made up of smaller versions of itself
+
+    --- 3 Core Elements of Recursion ---
+        1. needs a base case
+            -- base case = the condition where you don't need to recurse anymore
+                -- you don't need to run the function again to get the answer
+        
+        2. changes state to move towards the base case
+
+        3. the function needs to call itself
+
+        See example in demo 0
+
+Recursion is a bit slower than looping because of the stack
+    -- each time the function is called, a new context is created, and that context is added to the call stack
+
+    -- even though it is technically slower, the big O notation is the same as looping
+        -- because it is still linear (for the example problem)
